@@ -1,3 +1,5 @@
 # github-battle
 
-Project built using ReactJS!
+Type in your Github username and a friend's Github username, then see who wins the battle!
+
+Project built using ReactJS
