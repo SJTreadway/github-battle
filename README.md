@@ -1,4 +1,4 @@
-# github-battle
+# Github-Battle
 
 Type in your Github username and a friend's Github username, then see who wins the battle!
 
