@@ -10,7 +10,7 @@ var Home = React.createClass({
                 className="jumbotron col-sm-12 text-center" 
                 style={transparentBG}>
                 <h1>Github Battle</h1>
-                <p className="lead">Some fancy motto</p>
+                <p className="lead">Do ya feel lucky, punk?</p>
             <Link to="/playerOne">
                 <button className="btn btn-lg btn-success">Get Started</button>
             </Link>
