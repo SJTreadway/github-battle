@@ -8,7 +8,9 @@ var UserDetailsWrapper = require('./UserDetailsWrapper');
 
 function ConfirmBattle(props) {
     return props.isLoading === true
-        ? <p>LOADING!</p>
+        ? <div className="jumbotron col-sm-12 text-center" style={styles.transparentBG}>
+            <h1>LOADING!</h1>
+        </div>
       : <div className="jumbotron col-sm-12 text-center" style={styles.transparentBG}>
           <h1>Confirm Players</h1>
             <div className="col-sm-8 col-sm-offset-2">
