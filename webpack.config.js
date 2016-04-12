@@ -14,8 +14,9 @@ module.exports = {
         './app/index.js'
     ],
     output: {
-        path: __dirname + '/dist',
-        filename: 'index_bundle.js'
+        path: path.join(__dirname, 'dist'),
+        filename: 'index_bundle.js',
+        publicpath: '/dist/'
     },
     module: {
         loaders: [
