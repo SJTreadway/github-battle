@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config ./webpack.config.js --progress --colors",
     "production": "webpack -p",
-    "start": "node ./app/app.js"
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
