@@ -1,12 +1,12 @@
 const path = require('path')
 const webpack = require('webpack')
 
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-    template: __dirname + '/app/index.html',
-    filename: 'index.html',
-    inject: 'body'
-})
+// var HtmlWebpackPlugin = require('html-webpack-plugin');
+// var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+//     template: __dirname + '/app/index.html',
+//     filename: 'index.html',
+//     inject: 'body'
+// })
 
 
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
     ],
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'index_bundle.js',
+        filename: 'bundle.js',
         publicpath: '/dist/'
     },
     module: {
@@ -24,7 +24,7 @@ module.exports = {
         ]
     },
     plugins: [
-      HtmlWebpackPluginConfig,
+      // HtmlWebpackPluginConfig,
       new webpack.optimize.DedupePlugin(),
       new webpack.optimize.UglifyJsPlugin({
         minimize: true,
